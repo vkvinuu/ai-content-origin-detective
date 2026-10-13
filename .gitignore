@@ -1,0 +1,45 @@
+# Environments & venv
+.venv/
+.venv_linux/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node & Frontend
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log
+
+# Sensitive environment variables
+.env
+.env.local
+.env.production
+
+# Storage & Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/artifacts/*
+!backend/artifacts/.gitkeep
+*.db
+*.sqlite3
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+!.env.*.example
+node_modules/
+.next/
+.venv/
+.venv_linux/
+__pycache__/
+transfer-package/
